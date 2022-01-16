@@ -26,7 +26,7 @@ The requested outputs were:
 
 * Diana DeGette was the clear winner of this election, receiving over 73% (272,892) of all votes in her precinct.
 
-![Results Image](Results.png)
+![Results Image](Resources/Results.png)
 
 ## Election Audit Summary
 
@@ -35,6 +35,11 @@ The Python script used to conduct this analysis offers a clear and concise repor
 #### Examples of how this script can be modified to be used for other elections
 
 * import data files from other elections
+
 * adjust the locations from which you pull the relevant candidate and vote information (i.e. candidate_name = row[2] in this example could be in row[1] in a different data set)
+
+![Showing Code](Resources/Row_Example.png)
+
 * include additional conditionals and outputs in the case of a potential candidate tie or a plurality contingency
+
 * Adjust conditionals and outputs to show results for different voting areas, such as cities or neighborhoods
